@@ -1,0 +1,43 @@
+@media only screen and (min-width: 700px) {
+
+    header nav {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    header nav a {
+        padding: 10px;
+    }
+
+    .headerName {
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        margin-top: 8vh;
+    }
+
+    #sections {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    #sectionOne ul {
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+
+    #sectionTwo {
+        margin-left: 50px;
+    }
+
+    #sectionTwo ul {
+        padding-right: 10vw;
+        padding-left: 10vw;
+
+    }
+
+}

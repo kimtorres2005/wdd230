@@ -1,0 +1,121 @@
+#content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #b1b4b5;
+    color: rgb(111, 13, 13);
+    height: 150px;
+    font-family: "IM Fell French Canon SC";
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headerName {
+    display: flex;
+    align-content: center;
+}
+
+header img {
+    height: 100px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(111, 13, 13);
+}
+
+header nav a {
+    color: #b1b4b5;
+    text-align: center;
+    font-size: 4vh;
+}
+
+header nav a:hover {
+    color: black;
+}
+
+header h1 {
+    margin-left: 5vw;
+    margin-top: 45px;
+}
+
+main {
+    margin-top: 20vh;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 4px gray;
+}
+
+#sectionOne h3 {
+    text-align: center;
+    background-color: #b1b4b5;
+    font-size: 4vh;
+    margin-top: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+}
+
+#sectionOne ul {
+    text-align: left;
+    list-style: none;
+}
+
+#sectionTwo h3 {
+    text-align: center;
+    background-color: #b1b4b5;
+    font-size: 4vh;
+    margin-top: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+}
+
+#sectionTwo ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+#sectionTwo ul li {
+    margin-bottom: 2vh;
+}
+
+footer {
+    background-color: #b1b4b5;
+    height: 100px;
+    padding-top: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Lato", "Helvetica", sans-serif;
+    color: rgb(111, 13, 13);
+}
