@@ -135,6 +135,10 @@ p {
     padding: 1em;
 }
 
+.scenarios {
+    margin-top: -35px;
+}
+
 .colors {
     width: auto;
     display: flex;
@@ -189,4 +193,20 @@ th {
     padding: 8px;
     border: 1px solid #ECEBE4;
     text-align: left;
+}
+
+.wireframe {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+#mobileViewPic {
+    max-width: 100%;
+    height: auto;
+}
+
+#largeViewPic {
+    max-width: 100%;
+    height: auto;
 }
