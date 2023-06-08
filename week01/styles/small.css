@@ -1,0 +1,192 @@
+body {
+    background-color: white;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    width: 96%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    padding: 1em;
+    text-align: center;
+    background-color: #429EA6;
+    font-size: 18px;
+    font-family: "Castoro Titling", sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+nav a {
+    margin-left: 20px;
+    color: #ECEBE4;
+    text-decoration: none;
+    padding: 35px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+nav :hover {
+    color: #153B50;
+    background-color:#16F4D0;
+    text-decoration: underline;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Cinzel+Decorative&family=Noto+Sans+Georgian:wght@300&display=swap");
+
+:root {
+    --primary-color: #CC998D;
+    --secondary-color: #429EA6;
+    --accent1-color: #16F4D0;
+    --accent2-color: #ECEBE4;
+    --accent3-color: #153B50;
+
+    --heading-font: 'Castoro Titling', sans-serif;
+    --paragraph-font: 'Castoro Titling', 'Bruno Ace SC', serif;
+
+    --headline-color-on-white: #154B50;
+    --headline-color-on-color: #ECEBE4;
+    --paragraph-color: #154B50;
+    --paragraph-color-on-color: #ECEBE4;
+    --paragraph-background-color: #429EA6;
+    --nav-link-color: #429EA6;
+    --nav-background-color: #ECEBE4;
+    --nav-hover-link-color: #154B50;
+    --nav-hover-background-color: #CC998D;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+
+h2 {
+    text-align: left;
+}
+
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent1-color);
+}
+
+header {
+    color: var(--paragraph-color-on-color);
+    background-color: var(--paragraph-background-color);
+}
+
+header>h1,
+header>h2 {
+    color: var(--headline-color-on-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color);
+    padding: 1em;
+}
+
+.colors {
+    width: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.colors th {
+    background-color: rgb(203, 200, 200);
+    height: 3em;
+}
+
+.colors td {
+    width: 20%;
+    height: 3em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+    color: #16F4D0;
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2 {
+    background-color: var(--accent2-color);
+}
+
+.accent3 {
+    background-color: var(--accent3-color);
+    color: #16F4D0;
+}
+
+p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    padding: 8px;
+    border: 1px solid #ECEBE4;
+    text-align: left;
+}
