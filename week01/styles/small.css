@@ -68,7 +68,7 @@ nav :hover {
     --headline-color-on-white: #154B50;
     --headline-color-on-color: #ECEBE4;
     --paragraph-color: #154B50;
-    --paragraph-color-on-color: #ECEBE4;
+    --paragraph-color-on-color: black;
     --paragraph-background-color: #429EA6;
     --nav-link-color: #429EA6;
     --nav-background-color: #ECEBE4;
@@ -162,7 +162,7 @@ p {
 
 .secondary {
     background-color: var(--secondary-color);
-    color: #16F4D0;
+    color: black;
 }
 
 .accent1 {
