@@ -53,8 +53,6 @@ nav :hover {
     text-decoration: underline;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Cinzel+Decorative&family=Noto+Sans+Georgian:wght@300&display=swap");
-
 :root {
     --primary-color: #CC998D;
     --secondary-color: #429EA6;
@@ -105,8 +103,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
+    font-family: 'Castoro Titling', sans-serif;
+    color: #154B50;
 }
 
 h2 {
@@ -116,22 +114,22 @@ h2 {
 hr {
     height: 3px;
     margin: 35px 0;
-    background: var(--accent1-color);
+    background: #16F4D0;
 }
 
 header {
-    color: var(--paragraph-color-on-color);
-    background-color: var(--paragraph-background-color);
+    color: black;
+    background-color: #429EA6;
 }
 
 header>h1,
 header>h2 {
-    color: var(--headline-color-on-color);
+    color: #ECEBE4;
 }
 
 p {
-    font-family: var(--paragraph-font);
-    color: var(--paragraph-color);
+    font-family: 'Castoro Titling', 'Bruno Ace SC', serif;
+    color: #154B50;
     padding: 1em;
 }
 
@@ -157,30 +155,30 @@ p {
 }
 
 .primary {
-    background-color: var(--primary-color);
+    background-color: #CC998D;
 }
 
 .secondary {
-    background-color: var(--secondary-color);
+    background-color: #429EA6;
     color: black;
 }
 
 .accent1 {
-    background-color: var(--accent1-color);
+    background-color: #16F4D0;
 }
 
 .accent2 {
-    background-color: var(--accent2-color);
+    background-color: #ECEBE4;
 }
 
 .accent3 {
-    background-color: var(--accent3-color);
+    background-color: #153B50;
     color: #16F4D0;
 }
 
 p.colored {
-    background-color: var(--paragraph-background-color);
-    color: var(--paragraph-color-on-color);
+    background-color: #429EA6;
+    color: black;
 }
 
 table {
