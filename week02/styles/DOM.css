@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #edf4f9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+main {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #204f71;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+label {
+    color: white;
+}
+
+input,
+button {
+    padding: 0.5rem;
+}
+
+button {
+    margin: 0.5rem;
+    color: #04416d;
+    background-color: white;
+    border-color: black;
+    border-width: 7px;
+}
+
+.delete {
+    width: fit-content;
+}
+
+.input {
+    display: flex;
+    gap: 1rem;
+}
+
+.list {
+    padding: 0.5rem;
+  }
+
+#list {
+    color: white;
+    font-size: 40px;
+}
+
+.listHeading{
+    justify-content: center;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    list-style: none;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 32.5em) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        width: 65%;
+    }
+
+    input {
+        font-size: 20px;
+    }
+}
