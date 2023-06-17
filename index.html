@@ -17,7 +17,9 @@
     <meta property="og:title" content="Kimberly Torres home page" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://kimtorres2005.github.io/wdd230/index.html" />
-    <meta property="og:image" content="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcmsv2-assets.apptegy.net%2Fuploads%2F3904%2Ffile%2F1793462%2F03b27887-8f18-478f-b40f-a83b097a5dc4.jpeg&tbnid=0dw-vs-fcbFQTM&vet=12ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ..i&imgrefurl=https%3A%2F%2Fwww.colmesneilisd.net%2Fpage%2Flake-tejas&docid=J2Jzl9wHXm7XnM&w=1920&h=1080&q=colmesneil%20texas&client=safari&ved=2ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ" />
+    <meta property="og:image"
+        content="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcmsv2-assets.apptegy.net%2Fuploads%2F3904%2Ffile%2F1793462%2F03b27887-8f18-478f-b40f-a83b097a5dc4.jpeg&tbnid=0dw-vs-fcbFQTM&vet=12ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ..i&imgrefurl=https%3A%2F%2Fwww.colmesneilisd.net%2Fpage%2Flake-tejas&docid=J2Jzl9wHXm7XnM&w=1920&h=1080&q=colmesneil%20texas&client=safari&ved=2ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ" />
+    <link rel="stylesheet" href="styles/normalize.css">
 </head>
 
 <body>
@@ -29,13 +31,19 @@
             </h1>
         </div>
         <nav>
-            <a href="Home">Home</a>
-            <a href="Chamber">Chamber</a>
-            <a href="Site-Plan">Site Plan</a>
-            <a href="Form">Form</a>
+            <ul class="nav-ul responsive" id="nav-ul">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="Home">Home</a></li>
+                <li><a href="Chamber">Chamber</a></li>
+                <li><a href="Site-Plan">Site Plan</a></li>
+                <li><a href="Form">Form</a></li>
+            </ul>
         </nav>
     </header>
     <main>
+        <div id="mode">
+            ☑️
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
         <div class="line"></div>
         <div id="sections">
@@ -46,7 +54,8 @@
                     <li>Week 01: <a href=week01/media-query.html>Responsive Design: CSS Media Queries</a></li>
                     <li>Week 01: <a href=week01/chamber-site-plan.html>Chamber of Commerce Site Plan</a></li>
                     <li>Week 02: <a href=week02/design.html>Design Principles</a></li>
-                    <li>Week 02: <a href="https://codepen.io/Kimberly-Torres/pen/GRwoLPr">Hamburger Codepen Link</a></li>
+                    <li>Week 02: <a href="https://codepen.io/Kimberly-Torres/pen/GRwoLPr">Hamburger Codepen Link</a>
+                    </li>
                     <li>Week 02: <a href=week02/DOM.html>DOM Assignment</a></li>
                     <li>Week 03: <a href="Title">Title</a></li>
                     <li>Week 04: <a href="Title">Title</a></li>
@@ -54,7 +63,6 @@
                     <li>Week 06: <a href="Title">Title</a></li>
                 </ul>
             </section>
-
             <section class="card" id="sectionTwo">
                 <h3>Information</h3>
                 <ul>
@@ -71,6 +79,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/darkMode.js"></script>
 </body>
 
 </html>

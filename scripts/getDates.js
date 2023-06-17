@@ -16,5 +16,15 @@ function updateDateTime() {
     datetimeElement.textContent = 'Last Updated: ' + dateUpdate;
 }
 
+// Hamburger Menu
+function toggleMenu() {
+    document.getElementsByClassName("nav-ul")[0].classList.toggle("responsive");
+}
+
+window.addEventListener('DOMContentLoaded', function() {
+    var navUl = document.getElementById('nav-ul');
+    navUl.classList.toggle('responsive');
+})
+
 copyNameState();
 updateDateTime();

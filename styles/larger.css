@@ -1,18 +1,44 @@
 @media only screen and (min-width: 700px) {
 
-    header nav {
+    /* navibar */
+    .nav-ul {
+        display: flex;
         flex-direction: row;
+        flex-wrap: no-wrap;
         justify-content: space-evenly;
+        margin-right: 1vw;
     }
 
-    header nav a {
-        padding: 10px;
+    .nav-ul li:first-child {
+        display: none;
+    }
+
+    .nav-ul li {
+        display: flex;
+        flex-direction: column;
+        max-width: fit-content;
+    }
+
+    .nav-ul a {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        color: rgb(111, 13, 13);
+        padding: 2vh;
+        font-size: 1.15rem;
+    }
+
+    .nav-ul a:hover {
+        color: #b1b4b5;
+        background-color: rgb(111, 13, 13);
+        text-decoration: underline;
     }
 
     .headerName {
-        display: flex;
-        justify-content: center;
+        justify-content: flex-start;
     }
+
+    /* main */
 
     main {
         margin-top: 8vh;
