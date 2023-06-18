@@ -31,7 +31,7 @@
     .heading {
         font-size: 1.15vw;
         max-height: fit-content;
-        color: #153b50;
+        color: black;
     }
 
     /* This is for the Social media icons and the navigation */
@@ -85,7 +85,7 @@
     .nav-ul a {
         display: flex;
         justify-content: space-evenly;
-        color: #153b50;
+        color: black;
         padding: 2vh;
         font-size: 2vh;
         margin-left: -6.5vw;
@@ -256,7 +256,6 @@
     #footer {
         display: flex;
         justify-content: center;
-        background-color: #429EA6;
         color: #ecebe4;
         padding: .5vw;
         margin: .5vw;
