@@ -1,0 +1,265 @@
+@media only screen and (min-width: 764px) {
+    .banner {
+        padding: .5vw;
+        font-size: 2vw;
+    }
+
+    /* Header */
+
+    .content {
+        justify-content: space-evenly;
+        width: 100%;
+        max-width: 1600px;
+    }
+
+    /* Main Header Row */
+
+    .row-1 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        max-height: 150px;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+        margin-top: 1vh;
+        margin-bottom: 1.25vw;
+    }
+
+    .heading {
+        font-size: 1.15vw;
+        max-height: fit-content;
+        color: #153b50;
+    }
+
+    /* This is for the Social media icons and the navigation */
+
+    .cont {
+        align-items: center;
+    }
+
+    /* This is the social media icons */
+
+    #col1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 6vw;
+        margin-left: 2vw;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* This is the navigation menu */
+
+    #col2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .nav-ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: no-wrap;
+        justify-content: space-evenly;
+        margin-right: 1vw;
+    }
+
+    .nav-ul li:first-child {
+        display: none;
+    }
+
+    .nav-ul li {
+        display: flex;
+        flex-direction: column;
+        max-width: fit-content;
+    }
+
+    .nav-ul a {
+        display: flex;
+        justify-content: space-evenly;
+        color: #153b50;
+        padding: 2vh;
+        font-size: 2vh;
+        margin-left: -6.5vw;
+        font-weight: 900;
+    }
+
+
+    /* Date Header Row */
+    .row-2 {
+        display: flex;
+        max-height: 10px;
+        justify-content: center;
+        background-color: #ecebe4;
+        color: #153b50;
+        font-size: 2vw;
+        padding-bottom: 1vw;
+    }
+
+    /* Main */
+
+    .column1 {
+        width: 90vw;
+    }
+
+    .placeholder-box-4 {
+        height: 45vh;
+    }
+
+    .placeholder-box-3 button {
+        width: 20vh;
+        height: 8vh;
+        font-size: 3.5vh;
+        font-weight: bold;
+    }
+    
+    .placeholder-box-3 p {
+        font-size: 3vh;
+    }
+    
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .column2 {
+        width: 45vw;
+    }
+
+    .placeholder-box-2 {
+        height: 45vh;
+    }
+
+    .placeholder-box-2 h1 {
+        font-size: 5vh;
+    }
+    
+    .placeholder-box-2 p {
+        font-size: 3vh;
+    }
+
+    .placeholder-box-1 {
+        height: 45vh;
+    }
+
+    .placeholder-box-1 h3 {
+        font-size: 4vh;
+    }
+    
+    .placeholder-box-1 p {
+        font-size: 3vh;
+    }
+
+    .column3 {
+        width: 45vw;
+    }
+
+    .spot-2 img {
+        max-width: 13vh;
+        padding-right: 15px;
+    }
+
+    .inner-box-2 p {
+        font-family: "Cinzel Decorative family";
+        font-size: 2.5vh;
+        margin-top: 5px;
+    }
+
+    /* Footer */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #ecebe4;
+    }
+
+    .main-part {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    footer .logo {
+        height: 10vw;
+        margin-bottom: 1vw;
+    }
+
+    .title-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title h3 {
+        font-size: 1.75vw;
+        gap: 0;
+    }
+
+    .address {
+        font-size: 1.5vw;
+    }
+
+    .map-link {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        box-sizing: border-box;
+        background-color: #ecebe4;
+        width: 20vw;
+        height: 10vw;
+    }
+
+    .map {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        box-sizing: border-box;
+        background-color: #ecebe4;
+        width: 20vw;
+        height: 10vw;
+    }
+
+    .map img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.75vw;
+        line-height: .5;
+        margin-right: 5vw;
+        margin-top: .5vw;
+        gap: .5vw;
+    }
+
+    .addTitle {
+        display: block;
+    }
+
+    #footer {
+        display: flex;
+        justify-content: center;
+        background-color: #429EA6;
+        color: #ecebe4;
+        padding: .5vw;
+        margin: .5vw;
+        font-size: 2vw;
+    }
+}

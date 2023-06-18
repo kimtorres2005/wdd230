@@ -1,12 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colmesneil, Texas Chamber of Commerce</title>
     <link src="images/favicon.ico" alt="favicon icon">
-</head>
+    <meta property="og:title" content="Colmesneil, Texas Chamber of Commerce" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image"
+        content="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcmsv2-assets.apptegy.net%2Fuploads%2F3904%2Ffile%2F1793462%2F03b27887-8f18-478f-b40f-a83b097a5dc4.jpeg&tbnid=0dw-vs-fcbFQTM&vet=12ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ..i&imgrefurl=https%3A%2F%2Fwww.colmesneilisd.net%2Fpage%2Flake-tejas&docid=J2Jzl9wHXm7XnM&w=1920&h=1080&q=colmesneil%20texas&client=safari&ved=2ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ" />
+    <meta property="og:url" content="https://kimtorres2005.github.io/wdd230/chamber/index.html" />
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+
 <body>
-    
+    <header>
+        <div class="content">
+            <div class="row-1">
+                <a id="logo" href="index.html" class="active">
+                    <img class="logo" src="images/logo.png" alt="Colmesneil Chamber of Commerce Logo">
+                </a>
+
+                <div class="heading">
+                    <h1>Colmesneil, Texas</h1>
+                    <h1>Chamber of Commerce</h1>
+                </div>
+
+                <div class="cont">
+                    <div class="col" id="col1">
+                        <div class="social">
+                            <a href="https://facebook.com" target="_blank">
+                                <img src="images/facebook.png" alt="fb icon">
+                            </a>
+                            <a href="https://twitter.com" target="_blank">
+                                <img src="images/twitter.png" alt="twitter icon">
+                            </a>
+                            <a href="https://instagram.com" target="_blank">
+                                <img src="images/instagram.png" alt="instagram icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col" id="col2">
+                        <nav>
+                            <ul class="nav-ul responsive" id="nav-ul">
+                                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="discover.html">Discover</a></li>
+                                <li><a href="directory.html">Directory</a></li>
+                                <li><a href="join.html">Join</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row-2">
+                <p id="date"></p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="column1" id="column1">
+            <div class="placeholder-box-4" id="placeholder">
+                <div class="hero">
+                    <img src="images/foggy.jpg" alt="Fog over marsh water">
+                </div>
+                <div class="placeholder-box-3" id="placeholder">
+                    <button type="submit">Join Us!</button>
+                    <p>Discover how to join the chamber of commerce and how it will benefit your organization.</p>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="column2" id="column2">
+                <div class="placeholder-box-2" id="placeholder">
+                    <h1>Colmesneil</h1>
+                    <h1>Weather</h1>
+                    <div class="line1"></div>
+                    <div class="temperature">
+                        <p id="temp">82</p>
+                        <p>&deg;F</p>
+                    </div>
+                    <p>Mostly Sunny</p>
+                    <div class="line1"></div>
+                    <div class="windS">
+                        <p>Wind Speed:</p>
+                        <p id="wind-speed">8</p>
+                        <p>mph</p>
+                    </div>
+                    <p id="windchill"></p>
+                </div>
+                <div class="placeholder-box-1" id="placeholder">
+                    <div class="event-center">
+                        <img src="images/eventCenter.jpg" alt="Picture of event center">
+                        <div class="event-text">
+                            <h3>4th of July Celebration!</h3>
+                            <p>Lively Oak Event Center</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="placeholder-box-5" id="placeholder">
+                    <div class="news1">
+                        <img src="images/damB.jpg">
+                        <div class="news1-text">
+                            <h2>Dam B To Undergo Major Construction</h2>
+                            <p>Govenor Greg Abbott announced today that the
+                                Army Corp of Engineers will be performing a
+                                major overhaul of Dam B. The construction is
+                                set to begin this summer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column3" id="column3">
+                <div class="placeholder-box-5" id="placeholder">
+                    <div class="news2">
+                        <img src="images/damB.jpg">
+                        <div class="news2-text">
+                            <h2>Dam B To Undergo Major Construction</h2>
+                            <p>Govenor Greg Abbott announced today that the
+                                Army Corp of Engineers will be performing a
+                                major overhaul of Dam B. The construction is
+                                set to begin this summer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="placeholder-box-6" id="placeholder">
+                    <div class="inner-box-1" id="inner-box">
+                        <div class="spot-1">
+                            <h2>New Store Opening</h2>
+                            <h3>T & T Pharmacy</h3>
+                            <p>Father and Son</p>
+                            <p>Gary and Blake Torres</p>
+                            <p>"We are here to serve Colmesneil."</p>
+                            <p>Opens July 2nd!</p>
+                        </div>
+                    </div>
+                    <div class="inner-box-2" id="inner-box">
+                        <div class="spot-2">
+                            <div id="spot-2">
+                                <img src="images/wrights.png">
+                                <h2>Wright's Bar-B-Que</h2>
+                            </div>
+                            <p>Weekly Specials!</p>
+                            <p>Open Monday-Saturday: 11-8</p>
+                        </div>
+                    </div>
+                    <div class="inner-box-3" id="inner-box">
+                        <div class="spot-3">
+                            <h2>Learn Archery</h2>
+                            <p>Precision Archery is offering free archery lessons to kids under 16.
+                                Hosted at Claiborne Park every Saturday through August.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="main-part">
+            <a id="logo" href="index.html">
+                <img class="logo" src="images/logo.png" alt="Colmesneil Chamber of Commerce Logo">
+            </a>
+            <div class="title-main">
+                <div class="title">
+                    <h3>Colmesneil</h3>
+                    <h3>Chamber of Commerce</h3>
+                </div>
+                <div class="address">
+                    <div class="addTitle">
+                        <p>Address:</p>
+                    </div>
+                    <div class="innerAdd">
+                        <p>204 W. Elder St.</p>
+                        <p>Colmesneil, TX 75938</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map-link">
+                <a href="https://www.google.com/maps/place/204+W+Elder+St,+Colmesneil,+TX+75938/@30.9087812,-94.4265259,17z/data=!3m1!4b1!4m6!3m5!1s0x8638549c2fbe04ed:0xafdf24131747ad25!8m2!3d30.9087812!4d-94.4239563!16s%2Fg%2F11c4tdwxjv?authuser=0&entry=ttu"
+                    target="_blank">
+                    <div class="map">
+                        <img src="images/map.png">
+                    </div>
+                </a>
+            </div>
+            <div class="contact">
+                <div class="email">
+                    <div class="addTitle">
+                        <p>Email:</p>
+                    </div>
+                    <p>info@colmesneilcc.org</p>
+                </div>
+                <div class="phone">
+                    <div class="addTitle">
+                        <p>Phone:</p>
+                    </div>
+                    <p>(409)429-5133</p>
+                </div>
+            </div>
+        </div>
+        <p id="footer"></p>
+    </footer>
+    <!-- <script src="scripts/windchill.js"></script> -->
+    <script src="scripts/chamber.js"></script>
 </body>
+
 </html>
