@@ -168,7 +168,13 @@ main {
     order: 3;
 }
 
-#placeholder {
+#placeholder1,
+#placeholder2,
+#placeholder3,
+#placeholder4,
+#placeholder5,
+#placeholder5b,
+#placeholder6 {
     flex: 1 0 100px;
     margin: 1.5vw;
 }
@@ -351,7 +357,9 @@ main {
     font-family: "Castoro Titling", serif;
 }
 
-#inner-box {
+#inner-box1,
+#inner-box2,
+#inner-box3 {
     margin: 3vh;
 }
 
