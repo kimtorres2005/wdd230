@@ -62,14 +62,14 @@ button {
 
 .list {
     padding: 0.5rem;
-  }
+}
 
 #list {
     color: white;
     font-size: 40px;
 }
 
-.listHeading{
+.listHeading {
     justify-content: center;
     color: white;
     text-decoration: underline;

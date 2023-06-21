@@ -9,6 +9,43 @@ header {
     flex-direction: column;
 }
 
+#menu-symbol {
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+    cursor: pointer;
+}
+
+#menu-symbol::before,
+#menu-symbol::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #000;
+    transition: transform 0.3s ease;
+}
+
+#menu-symbol::before {
+    top: -8px;
+    width: 30px;
+}
+
+#menu-symbol::after {
+    top: 8px;
+    width: 30px;
+}
+
+.nav-ul.open #menu-symbol::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.nav-ul.open #menu-symbol::after {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
 main,
 footer {
     max-width: 760px;
