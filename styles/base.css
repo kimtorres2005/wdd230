@@ -181,6 +181,8 @@ main h2 {
 
 iframe {
     margin-bottom: 20px;
+    width: 30vw;
+    height: 30vw;
 }
 
 footer {
