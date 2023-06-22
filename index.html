@@ -32,7 +32,7 @@
         </div>
         <nav>
             <ul class="nav-ul responsive" id="nav-ul">
-                <li><a href="#" onclick="toggleMenu()">&#9776;<span id="menu-symbol"> Menu</span></a></li>
+                <li><a href="#" onclick="toggleMenu()">&#9776;<span id="menu-symbol">Menu</span></a></li>
                 <li><a href="Home">Home</a></li>
                 <li><a href="Chamber">Chamber</a></li>
                 <li><a href="Site-Plan">Site Plan</a></li>
@@ -41,6 +41,14 @@
         </nav>
     </header>
     <main>
+        <div id="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 960px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="Temple Image">
+                <div class="overlay">Houston, TX Temple</div>
+            </picture>
+        </div>
         <div id="mode">
             ☑️
         </div>
@@ -71,13 +79,14 @@
                 <h3>Information</h3>
                 <ul>
                     <li>Vidor, Texas</li>
-                    <li>78&deg;F-Rainy</li>
-                    <li>Page Visits</li>
+                    <li>78°F-Rainy</li>
+                    <li>Page Visits: <span id="pageVisits">0</span></li>
                 </ul>
             </section>
         </div>
 
     </main>
+    <iframe src="https://maps.google.com/maps?q=Vidor%2C%20TX&output=embed" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     <footer>
         <p id="footerName"></p>
         <p id="lastModified"></p>

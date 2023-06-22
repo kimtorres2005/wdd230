@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #content {
     max-width: 1000px;
     margin: 0 auto;
@@ -11,6 +18,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 
 .headerName {
@@ -76,7 +84,35 @@ header h1 {
 /* Main content */
 
 main {
-    margin-top: 20vh;
+    margin-top: 10vh;
+}
+
+/* Add these styles for the hero section */
+
+#hero {
+    position: relative;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 main h2 {
@@ -143,6 +179,10 @@ main h2 {
     cursor: pointer;
 }
 
+iframe {
+    margin-bottom: 20px;
+}
+
 footer {
     background-color: #b1b4b5;
     height: 100px;
@@ -153,4 +193,5 @@ footer {
     justify-content: center;
     font-family: "Lato", "Helvetica", sans-serif;
     color: rgb(111, 13, 13);
+    width: 100vw;
 }
