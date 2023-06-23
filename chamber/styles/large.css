@@ -105,6 +105,28 @@
 
     /* Main */
 
+    main h1 {
+        font-size: 55px;
+    }
+
+    .sidebar {
+        font-size: 25px;
+    }
+
+    .main-content {
+        font-size: 25px;
+    }
+    
+
+    .discover-boxes .discover-img img {
+        width: 65%;
+    }
+
+    .discover-boxes .discover-img img:hover {
+        filter: saturate(200%);
+    }
+    
+
     .column1 {
         width: 90vw;
     }
@@ -119,11 +141,11 @@
         font-size: 3.5vh;
         font-weight: bold;
     }
-    
+
     .placeholder-box-3 p {
         font-size: 3vh;
     }
-    
+
 
     .main {
         display: flex;
@@ -143,7 +165,7 @@
     .placeholder-box-2 h1 {
         font-size: 5vh;
     }
-    
+
     .placeholder-box-2 p {
         font-size: 3vh;
     }
@@ -155,7 +177,7 @@
     .placeholder-box-1 h2 {
         font-size: 4vh;
     }
-    
+
     .placeholder-box-1 p {
         font-size: 3vh;
     }
