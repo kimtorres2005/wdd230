@@ -20,7 +20,7 @@ h1 {
 }
 
 .images {
-    display: center;
+    display: flex;
     flex-direction: column;
 }
 
