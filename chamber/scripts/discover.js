@@ -1,23 +1,36 @@
-const msToDays = 86400000;
-const theDateToday = new Date();
-let lastVisit = new Date(localStorage.getItem("lastVisit-ls"));
+// Get the current timestamp
+var currentTime = new Date().getTime();
 
-if (!lastVisit || isNaN(lastVisit)) {
-    // User's first visit or invalid stored date
-    document.querySelector(".days").textContent = "Welcome! Let us know if you have any questions.";
-    lastVisit = null; // Reset last visit to null
+// Check if the user's first visit timestamp is stored in the browser's local storage
+if (!localStorage.getItem('firstVisit')) {
+    // First visit, display the welcome message
+    document.querySelector('.days').textContent = 'Welcome! Let us know if you have any questions.';
+
+    // Store the current timestamp as the first visit timestamp
+    localStorage.setItem('firstVisit', currentTime);
 } else {
-    const timeDiff = theDateToday - lastVisit;
-    const daysPassed = Math.floor(timeDiff / msToDays);
+    // Get the timestamp of the user's previous visit from local storage
+    var previousVisitTime = localStorage.getItem('lastVisit');
 
-    if (daysPassed < 1) {
-        // Less than a day since last visit
-        document.querySelector(".days").textContent = "Back so soon! Awesome!";
+    // Calculate the time difference in milliseconds between the previous visit and the current visit
+    var timeDifference = currentTime - previousVisitTime;
+
+    // Calculate the number of days since the previous visit
+    var daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
+    if (daysDifference === 0) {
+        // Less than a day since the last visit, display "Back so soon! Awesome!"
+        document.querySelector('.days').textContent = 'Back so soon! Awesome!';
     } else {
-        const dayText = daysPassed === 1 ? "day" : "days";
-        const daysMessage = `You last visited ${daysPassed} ${dayText} ago.`;
-        document.querySelector(".days").textContent = daysMessage;
+        // More than a day since the last visit, display "You last visited _ day(s) ago."
+        var message = 'You last visited ' + daysDifference + ' day';
+        if (daysDifference > 1) {
+            message += 's';
+        }
+        message += ' ago.';
+        document.querySelector('.days').textContent = message;
     }
 }
 
-localStorage.setItem("lastVisit-ls", theDateToday.toISOString());
+// Store the current timestamp as the last visit timestamp
+localStorage.setItem('lastVisit', currentTime);
