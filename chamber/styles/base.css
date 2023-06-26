@@ -85,7 +85,7 @@ header {
 /* This is the navigation menu */
 
 .nav-ul li a.active {
-    color: white;
+    color: black;
 }
 
 .nav-ul li:first-child {
