@@ -85,7 +85,8 @@ header {
 /* This is the navigation menu */
 
 .nav-ul li a.active {
-    color: black;
+    font-size: 3vh;
+    text-decoration: underline;
 }
 
 .nav-ul li:first-child {
@@ -115,6 +116,7 @@ header {
     text-align: center;
     color: black;
     padding: 2vw;
+    text-decoration: none;
 }
 
 .nav-ul a:hover {
