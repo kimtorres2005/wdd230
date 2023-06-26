@@ -8,6 +8,10 @@ function loadImage(entry) {
     newImage.addEventListener("load", function () {
         imgElement.src = newImage.src;
     });
+
+    // Set dimensions for the placeholder image
+    imgElement.style.width = "100%";
+    imgElement.style.height = "auto";
 }
 
 const observer = new IntersectionObserver(function (entries, observer) {

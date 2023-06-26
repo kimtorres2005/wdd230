@@ -12,14 +12,11 @@ if (!lastVisit || isNaN(lastVisit)) {
     if (daysPassed < 1) {
         // Less than a day since last visit
         document.querySelector(".days").textContent = "Back so soon! Awesome!";
-    } else if (daysPassed === 1) {
-        // One day since last visit
-        document.querySelector(".days").textContent = "You last visited 1 day ago.";
     } else {
-        // More than one day since last visit
-        document.querySelector(".days").textContent = "You last visited " + daysPassed + " days ago.";
+        const dayText = daysPassed === 1 ? "day" : "days";
+        const daysMessage = `You last visited ${daysPassed} ${dayText} ago.`;
+        document.querySelector(".days").textContent = daysMessage;
     }
 }
 
 localStorage.setItem("lastVisit-ls", theDateToday.toISOString());
-
