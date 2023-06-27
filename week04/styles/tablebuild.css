@@ -1,0 +1,52 @@
+table,
+td {
+    text-align: center;
+    border-collapse: collapse;
+    width: 400px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+td#blankCell {
+    background-color: black;
+}
+
+tbody td {
+    border: 1px solid lightgray;
+    font-weight: bold;
+}
+
+.cd {
+    background-color: rgb(96, 93, 93);
+    color: white;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+    height: 90px;
+}
+
+.check {
+    color: purple;
+}
+
+.cross {
+    color: red;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+div {
+    margin-left: 80px;
+    margin-top: -10px;
+}
