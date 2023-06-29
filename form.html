@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimberly L. Torres - WDD 230 - Week04 Team Activity - Form HTML</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Kimberly Torres - course assignment portal">
+    <meta name="author" content="Kimberly L. Torres">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Cinzel+Decorative&family=Noto+Sans+Georgian:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Kimberly Torres home page" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://kimtorres2005.github.io/wdd230/index.html" />
+    <meta property="og:image"
+        content="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcmsv2-assets.apptegy.net%2Fuploads%2F3904%2Ffile%2F1793462%2F03b27887-8f18-478f-b40f-a83b097a5dc4.jpeg&tbnid=0dw-vs-fcbFQTM&vet=12ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ..i&imgrefurl=https%3A%2F%2Fwww.colmesneilisd.net%2Fpage%2Flake-tejas&docid=J2Jzl9wHXm7XnM&w=1920&h=1080&q=colmesneil%20texas&client=safari&ved=2ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ" />
+    <link href="styles/form.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="headerName">
+            <img src="images/picOfMe.jpg" alt="picture of kimberly torres">
+            <h1>
+                Kimberly L. Torres
+            </h1>
+        </div>
+        <nav>
+            <ul class="nav-ul responsive" id="nav-ul">
+                <li><a href="#" onclick="toggleMenu()">&#9776;<span id="menu-symbol">Menu</span></a></li>
+                <li><a href="Home">Home</a></li>
+                <li><a href="Chamber">Chamber</a></li>
+                <li><a href="Site-Plan">Site Plan</a></li>
+                <li><a href="Form">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Simple Form</h1>
+        <div class="form">
+            <form action="record.html" method="get">
+                <fieldset>
+                    <label class="top">Username*<input type="text" name="uname" id="uname" required></label>
+                    <label class="top">Password*<input type="password" name="password" id="password"
+                            pattern="[a-zA-Z0-9]{8,}" title="Please enter at least eight alphanumeric characters"
+                            required></label>
+                    <label class="top">Password Confirmation*<input type="password" name="password2" id="password2"
+                            required></label>
+                    <label class="top">Email*<input type="email" name="email" id="email"
+                            pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"
+                            required></label>
+                    <label class="top">Page Rating<input type="range" name="rating" id="rating" min="1" max="10"
+                            step="1" onchange="displayRatingValue()">
+                        <span id="rating-value" class="rating-value">5</span>
+                    </label>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <section class="card" id="sectionTwo">
+        <h3>Information</h3>
+        <ul>
+            <li>Vidor, Texas</li>
+            <li>78°F-Rainy</li>
+            <li>Page Visits: <span id="pageVisits">0</span></li>
+        </ul>
+    </section>
+    <iframe src="https://maps.google.com/maps?q=Vidor%2C%20TX&output=embed" width="600" height="450" style="border:0;"
+        allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <footer>
+        <p id="footerName"></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+
+</html>
