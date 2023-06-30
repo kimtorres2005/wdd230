@@ -22,6 +22,7 @@ body {
     padding: 2vw;
     text-align: center;
     font-size: 4vw;
+    width: 100%;
 }
 
 /* Header */
@@ -147,6 +148,170 @@ main {
     margin-right: 20px;
     max-width: 1600px;
     padding: 30px;
+}
+
+.joinUs {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 500px;
+    padding: 3vw;
+}
+
+.joinUs h1 {
+    font-size: 5vw;
+    color: #153b50;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.469);
+}
+
+form fieldset {
+    border: 1px solid #153b50;
+    padding: .5rem 2%;
+    margin: 2rem 0;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 4vh;
+}
+
+form legend {
+    display: block;
+    color: #153b50;
+    margin: 0 auto;
+    padding: 0 .5rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+form label.top {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    padding-bottom: 2rem;
+    color: #153b50;
+    font-size: .5px;
+}
+
+form label.top input,
+form label.top select {
+    display: block;
+    margin: 0 auto;
+    margin-top: .25vh;
+    width: 70vw;
+    padding: .75rem;
+    border: 1px solid #429ea4;
+    color: #153b50;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    max-width: 20rem;
+    background-color: white;
+    box-shadow: 1px 1px 1px #429ea4;
+}
+
+.appInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+
+#memLevel {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 2vh;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.memLabel {
+    position: relative;
+    padding-left: .5rem;
+}
+
+.levelSelect input[type="radio"]:hover {
+    cursor: pointer;
+}
+
+.levelSelect:hover {
+    cursor: pointer;
+}
+
+.info-content {
+    display: none;
+    margin-top: 8px;
+    background-color: #429ea4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info-content {
+    display: block;
+    text-align: left;
+}
+
+.info-content p {
+    margin: 10px;
+}
+
+#memLevel .info-content ul {
+    list-style: disc;
+}
+
+#memLevel .info-content ul li {
+    margin-bottom: 8px;
+}
+
+.info-link {
+    color: #226161;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.info-link:hover {
+    cursor: pointer;
+    color: #ff8552;
+}
+
+#businessInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#businessDescription {
+    height: 20vh;
+    width: 70vw;
+    max-width: 400px;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    font-size: 1rem;
+    padding: 10px;
+    box-shadow: 1px 1px 1px #474646;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.submitBtn {
+    color: #429EA6;
+    padding: .5rem;
+    font-size: 1.25rem;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.633);
+}
+
+.submitBtn:hover {
+    cursor: pointer;
+    color: #ff8552;
+    background-color: #429EA6;
+}
+
+.joinColumn2 {
+    display: none;
 }
 
 /* Discover Page */
