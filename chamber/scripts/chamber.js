@@ -31,6 +31,21 @@ function toggleMenu() {
     document.getElementsByClassName("nav-ul")[0].classList.toggle("responsive");
 }
 
+// Info Link Expand/Collapse
+function setupInfoLinks() {
+    const infoLinks = document.querySelectorAll('.info-link');
+
+    infoLinks.forEach((link) => {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();
+            const infoContainer = this.closest('.info-container');
+            const infoContent = infoContainer.querySelector('.info-content');
+            infoContent.classList.toggle('expanded');
+        });
+    });
+}
+setupInfoLinks();
+
 // // Memo Banner
 // function topBanner() {
 //     let curDate = new Date();
