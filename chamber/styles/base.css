@@ -48,13 +48,13 @@ header {
     margin: 0 auto;
 }
 
-.logo {
+.logo img {
     display: flex;
     max-height: 10vh;
     margin: 0 auto;
     padding-top: .5vh;
-    /* width: 200px;
-    height: 200px; */
+    width: 200px;
+    height: 200px;
 }
 
 .heading {
@@ -266,7 +266,7 @@ form label.top select {
 }
 
 .info-link {
-    color: #429ea4;
+    color: #153b50;
     font-weight: bold;
     margin-left: 10px;
 }
@@ -297,7 +297,7 @@ form label.top select {
 }
 
 .submitBtn {
-    color: #429EA6;
+    color: black;
     padding: .5rem;
     font-size: 1.25rem;
     margin-bottom: 60px;
