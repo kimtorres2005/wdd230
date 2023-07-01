@@ -158,16 +158,15 @@ main {
     padding: 3vw;
 }
 
-.joinUs h1 {
+main h1 {
     font-size: 5vw;
-    color: #153b50;
+    color: #cc998d;
     text-align: center;
     text-decoration: underline;
-    text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.469);
 }
 
 form fieldset {
-    border: 1px solid #153b50;
+    border: 1px solid #429EA6;
     padding: .5rem 2%;
     margin: 2rem 0;
     border-radius: 10px;
@@ -190,7 +189,7 @@ form label.top {
     flex-direction: column;
     align-items: centert;
     padding-bottom: 2rem;
-    color: #153b50;
+    color: black;
     font-size: 15px;
 }
 
@@ -202,7 +201,7 @@ form label.top select {
     width: 70vw;
     padding: .75rem;
     border: 1px solid #429ea4;
-    color: #153b50;
+    color: black;
     border-radius: 4px;
     font-size: 1.25rem;
     max-width: 20rem;
@@ -266,14 +265,14 @@ form label.top select {
 }
 
 .info-link {
-    color: #226161;
+    color: #429ea4;
     font-weight: bold;
     margin-left: 10px;
 }
 
 .info-link:hover {
     cursor: pointer;
-    color: #ff8552;
+    color: #cc998d;
 }
 
 #businessInfo {
@@ -307,7 +306,7 @@ form label.top select {
 
 .submitBtn:hover {
     cursor: pointer;
-    color: #ff8552;
+    color: black;
     background-color: #429EA6;
 }
 
@@ -577,8 +576,6 @@ main h1 {
     justify-content: center;
     height: 200px;
 }
-
-
 
 .placeholder-box-6 {
     order: 5;
