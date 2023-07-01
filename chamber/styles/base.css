@@ -7,14 +7,14 @@ body {
     text-align: center;
 }
 
-/* .directory-body {
+.directory-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     width: 100%;
-} */
+}
 
 .banner {
     background-color: #cc998d;
@@ -173,6 +173,7 @@ form fieldset {
     border-radius: 10px;
     margin: 0 auto;
     margin-bottom: 4vh;
+    text-align: center;
 }
 
 form legend {
@@ -187,10 +188,10 @@ form legend {
 form label.top {
     display: flex;
     flex-direction: column;
-    align-items: self-start;
+    align-items: centert;
     padding-bottom: 2rem;
     color: #153b50;
-    font-size: .5px;
+    font-size: 15px;
 }
 
 form label.top input,
