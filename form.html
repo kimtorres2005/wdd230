@@ -55,9 +55,9 @@
                     <label class="top">Password Confirmation*<input type="password" name="password2" id="password2"
                             required></label>
                     <label class="top">Email*
-                        <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
-                            title="Please enter a valid @byui.edu email address" required>
+                        <input type="email" name="email" id="email" required>
                     </label>
+                    <span id="email-error" class="error"></span>
                     <label class="top">Page Rating<input type="range" name="rating" id="rating" min="1" max="10"
                             step="1" onchange="displayRatingValue()">
                         <span id="rating-value" class="rating-value">5</span>
@@ -98,6 +98,24 @@
                 usernameError.textContent = "";
             }
         });
+    </script>
+    <script>
+        const emailInput = document.getElementById("email");
+        const emailError = document.getElementById("email-error");
+
+        emailInput.addEventListener("input", function () {
+            const email = emailInput.value.trim();
+            if (!validateEmail(email)) {
+                emailError.textContent = "Please enter a valid @byui.edu email address.";
+            } else {
+                emailError.textContent = "";
+            }
+        });
+
+        function validateEmail(email) {
+            const regex = /^[a-zA-Z0-9._%+-]+@byui\.edu$/;
+            return regex.test(email);
+        }
     </script>
 
 </body>
