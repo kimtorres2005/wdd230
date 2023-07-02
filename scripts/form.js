@@ -33,3 +33,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+emailInput.addEventListener("input", function () {
+    const email = emailInput.value.trim();
+    if (!validateEmail(email)) {
+        emailError.textContent = "Please enter a valid @byui.edu email address.";
+    } else {
+        emailError.textContent = "";
+    }
+});
+

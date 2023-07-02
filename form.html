@@ -24,7 +24,7 @@
 
 <body>
     <header>
-        <div class="headerName">
+        <div class="header-name">
             <img src="images/picOfMe.jpg" alt="picture of kimberly torres">
             <h1>
                 Kimberly L. Torres
@@ -85,7 +85,6 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
-    <script src="scripts/darkMode.js"></script>
     <script>
         // JavaScript code to handle form validation
         const usernameInput = document.getElementById("uname");
@@ -118,29 +117,11 @@
         }
     </script>
     <script>
-        // JavaScript code to handle dark mode toggle
-        document.addEventListener("DOMContentLoaded", function () {
-            const darkModeToggle = document.getElementById("dark-mode-toggle");
-
-            darkModeToggle.addEventListener("change", function () {
-                if (darkModeToggle.checked) {
-                    enableDarkMode();
-                } else {
-                    disableDarkMode();
-                }
-            });
-
-            function enableDarkMode() {
-                // Add code to enable dark mode
-                document.body.classList.add("dark-mode");
-            }
-
-            function disableDarkMode() {
-                // Add code to disable dark mode
-                document.body.classList.remove("dark-mode");
-            }
-        });
-
+        function displayRatingValue() {
+            const ratingInput = document.getElementById("rating");
+            const ratingValue = document.getElementById("rating-value");
+            ratingValue.textContent = ratingInput.value;
+        }
     </script>
 
 </body>
