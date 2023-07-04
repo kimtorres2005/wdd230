@@ -34,7 +34,6 @@ function toggleMenu() {
     menuExpanded = !menuExpanded; 
 }
 
-
 window.addEventListener('DOMContentLoaded', function () {
     var navUl = document.getElementById('nav-ul');
     navUl.classList.toggle('responsive');

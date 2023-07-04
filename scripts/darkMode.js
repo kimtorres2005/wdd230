@@ -12,3 +12,26 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "☑️";
 	}
 });
+
+// JavaScript code to handle dark mode toggle
+document.addEventListener("DOMContentLoaded", function () {
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
+
+    darkModeToggle.addEventListener("change", function () {
+        if (darkModeToggle.checked) {
+            enableDarkMode();
+        } else {
+            disableDarkMode();
+        }
+    });
+
+    function enableDarkMode() {
+        // Add code to enable dark mode
+        document.body.classList.add("dark-mode");
+    }
+
+    function disableDarkMode() {
+        // Add code to disable dark mode
+        document.body.classList.remove("dark-mode");
+    }
+});
