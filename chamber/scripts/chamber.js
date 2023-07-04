@@ -28,7 +28,16 @@ function getCurrentDate() {
 
 // Hamburger Menu
 function toggleMenu() {
-    document.getElementsByClassName("nav-ul")[0].classList.toggle("responsive");
+    const menuButton = document.getElementById("menuButton");
+    const navUl = document.getElementsByClassName("nav-ul")[0];
+
+    if (navUl.classList.contains("responsive")) {
+        navUl.classList.remove("responsive");
+        menuButton.innerHTML = "&#9776; Menu";
+    } else {
+        navUl.classList.add("responsive");
+        menuButton.innerHTML = "&#10006; Close";
+    }
 }
 
 // Info Link Expand/Collapse
