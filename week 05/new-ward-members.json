@@ -1,0 +1,28 @@
+{
+    "familyName": "Wright",
+    "moveInDate": "2023-07-05",
+    "familySize": 4,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "Curtis Wright",
+            "gender": "Male",
+            "birthdate": "1990-01-01"
+        },
+        {
+            "name": "Jane Wright",
+            "gender": "Female",
+            "birthdate": "1992-05-10"
+        },
+        {
+            "name": "Trent Wright",
+            "gender": "Male",
+            "birthdate": "2015-11-20"
+        },
+        {
+            "name": "Epsie Wright",
+            "gender": "Female",
+            "birthdate": "2018-08-15"
+        }
+    ]
+}
