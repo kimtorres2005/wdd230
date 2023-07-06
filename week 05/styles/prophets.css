@@ -37,3 +37,10 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
