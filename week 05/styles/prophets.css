@@ -15,15 +15,20 @@ h1 {
     margin: 0;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
 main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
-    padding: 20px;
+    padding: 20px;;
 }
 
 section {
-    background-color: #f1f1f1;
+    background-color: rgb(61, 88, 186);
     padding: 20px;
 }
 
