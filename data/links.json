@@ -1,0 +1,117 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Holygrail Assignment"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Responsive Design: CSS Media Queries"
+                },
+                {
+                    "url": "week01/chamber-site-plan.html",
+                    "title": "Chamber of Commerce Site Plan"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design Principles"
+                },
+                {
+                    "url": "https://codepen.io/Kimberly-Torres/pen/GRwoLPr",
+                    "title": "Hamburger Codepen Link"
+                },
+                {
+                    "url": "week02/DOM.html",
+                    "title": "DOM Assignment"
+                },
+                {
+                    "url": "chamber/index.html",
+                    "title": "Chamber Home Page"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/Landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Load"
+                },
+                {
+                    "url": "week03/reponsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/DOM.html",
+                    "title": "Locale Storage"
+                },
+                {
+                    "url": "chamber/discover.html",
+                    "title": "Chamber Discover Page"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Kimberly-Torres/pen/VwVPdVo",
+                    "title": "CSS Pseudo-Classes"
+                },
+                {
+                    "url": "week04/images/Screenshot.png",
+                    "title": "Combinators"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "HTML Tables for Data Presentation"
+                },
+                {
+                    "url": "form.html",
+                    "title": "Simple HTML Form"
+                },
+                {
+                    "url": "chamber/join.html",
+                    "title": "The Chamber Join Page"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Kimberly-Torres/pen/abQyGBX",
+                    "title": "Pseudo-elements"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Fetch API"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                },
+                {
+                    "url": "Title",
+                    "title": "Title"
+                }
+            ]
+        }
+    ]
+}

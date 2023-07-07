@@ -48,23 +48,19 @@
                 <img src="images/hero-large.webp" alt="Temple Image">
             </picture>
             <div class="overlay">Houston, TX Temple</div>
-
         </div>
-        <div id="mode">
-            ☑️
-        </div>
+        <div id="mode">☑️</div>
         <h2>WDD 230: Web Frontend Development</h2>
         <div class="line"></div>
         <div id="sections">
             <section class="card" id="sectionOne">
                 <h3>Learning Activities</h3>
-                <ul class="activities">
+                <ul class="activities" id="activitiesList">
                     <li>Week 01: <a href=week01/holygrail.html>Holygrail Assignment</a></li>
                     <li>Week 01: <a href=week01/media-query.html>Responsive Design: CSS Media Queries</a></li>
                     <li>Week 01: <a href=week01/chamber-site-plan.html>Chamber of Commerce Site Plan</a></li>
                     <li>Week 02: <a href=week02/design.html>Design Principles</a></li>
-                    <li>Week 02: <a href="https://codepen.io/Kimberly-Torres/pen/GRwoLPr">Hamburger Codepen Link</a>
-                    </li>
+                    <li>Week 02: <a href="https://codepen.io/Kimberly-Torres/pen/GRwoLPr">Hamburger Codepen Link</a></li>
                     <li>Week 02: <a href=week02/DOM.html>DOM Assignment</a></li>
                     <li>Week 02: <a href=chamber/index.html>Chamber Home Page</a></li>
                     <li>Week 03: <a href="week03/images/Landscape.webp">WebP</a>
@@ -88,20 +84,32 @@
                 <h3>Information</h3>
                 <ul>
                     <li>Vidor, Texas</li>
-                    <li>78°F-Rainy</li>
+                    <li>
+                        <div class="temp-icon">
+                            <figure>
+                                <div id="weather-icon"></div>
+                                <figcaption></figcaption>
+                            </figure>
+                            <div class="temperature">
+                                <p><span id="temp"></span></p>
+                                <p>&deg;F</p>
+                            </div>
+                        </div>
+                    </li>
                     <li>Page Visits: <span id="pageVisits">0</span></li>
                 </ul>
             </section>
         </div>
-
     </main>
-    <iframe src="https://maps.google.com/maps?q=Vidor%2C%20TX&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <iframe src="https://maps.google.com/maps?q=Vidor%2C%20TX&output=embed" width="600" height="450" style="border:0;"
+        allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     <footer>
         <p id="footerName"></p>
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/links.js"></script>
 </body>
 
 </html>
