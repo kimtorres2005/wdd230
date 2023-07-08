@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colmesneil, Texas Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="Your meta description here">
+    <meta name="author" content="Your author name here">
+    <meta property="og:title" content="Colmesneil, Texas Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcmsv2-assets.apptegy.net%2Fuploads%2F3904%2Ffile%2F1793462%2F03b27887-8f18-478f-b40f-a83b097a5dc4.jpeg&tbnid=0dw-vs-fcbFQTM&vet=12ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ..i&imgrefurl=https%3A%2F%2Fwww.colmesneilisd.net%2Fpage%2Flake-tejas&docid=J2Jzl9wHXm7XnM&w=1920&h=1080&q=colmesneil%20texas&client=safari&ved=2ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ">
+    <meta property="og:url" content="https://kimtorres2005.github.io/wdd230/chamber/index.html">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="normalize.css">
+
+<body>
+    <header>
+        <div class="content">
+            <div class="row-1">
+                <a href="index.html" class="active">
+                    <img class="logo" src="images/logo.png" alt="Colmesneil Chamber of Commerce Logo">
+                </a>
+
+                <div class="heading">
+                    <h1>Colmesneil, Texas Chamber of Commerce</h1>
+                </div>
+
+                <div class="cont">
+                    <div class="col" id="col1">
+                        <div class="social">
+                            <a href="https://facebook.com" target="_blank">
+                                <img src="images/facebook.png" alt="fb icon">
+                            </a>
+                            <a href="https://twitter.com" target="_blank">
+                                <img src="images/twitter.png" alt="twitter icon">
+                            </a>
+                            <a href="https://instagram.com" target="_blank">
+                                <img src="images/instagram.png" alt="instagram icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col" id="col2">
+                        <nav>
+                            <ul class="nav-ul responsive" id="nav-ul">
+                                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                                <li><a href="index.html" class="active">Home</a></li>
+                                <li><a href="discover.html">Discover</a></li>
+                                <li><a href="directory.html">Directory</a></li>
+                                <li><a href="join.html">Join</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row-2">
+                <p id="date"></p>
+            </div>
+        </div>
+    </header>
+    <button id="toggle-button">List View</button>
+    <main>
+        <div class="directory-main">
+            <div class="cards"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="main-part">
+            <a href="index.html">
+                <img class="logo" src="images/logo.png" alt="Colmesneil Chamber of Commerce Logo">
+            </a>
+            <div class="title-main">
+                <div class="title">
+                    <h3>Colmesneil</h3>
+                    <h3>Chamber of Commerce</h3>
+                </div>
+                <div class="address">
+                    <div class="addTitle">
+                        <p>Address:</p>
+                    </div>
+                    <div class="innerAdd">
+                        <p>204 W. Elder St.</p>
+                        <p>Colmesneil, TX 75938</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map-link">
+                <a id="map-link"
+                    href="https://www.google.com/maps/place/204+W+Elder+St,+Colmesneil,+TX+75938/@30.9087812,-94.4265259,17z/data=!3m1!4b1!4m6!3m5!1s0x8638549c2fbe04ed:0xafdf24131747ad25!8m2!3d30.9087812!4d-94.4239563!16s%2Fg%2F11c4tdwxjv?authuser=0&entry=ttu"
+                    target="_blank">
+                    <div class="map">
+                        <img src="images/map.png" alt="Map Link">
+                    </div>
+                </a>
+            </div>
+            <div class="contact">
+                <div class="email">
+                    <div class="addTitle">
+                        <p>Email:</p>
+                    </div>
+                    <p>info@colmesneilcc.org</p>
+                </div>
+                <div class="phone">
+                    <div class="addTitle">
+                        <p>Phone:</p>
+                    </div>
+                    <p>(409)429-5133</p>
+                </div>
+            </div>
+        </div>
+        <p id="footer"></p>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/directory.js"></script>
+</body>
+
+</html>

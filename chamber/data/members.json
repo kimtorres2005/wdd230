@@ -1,0 +1,94 @@
+{
+    "businesses": [
+        {
+            "name": "Gibbs Alignment & Tire",
+            "contact": "Guy Gibbs",
+            "established": "23 December 1995",
+            "address": "1234 N. Main St.",
+            "phone": "555-555-5555",
+            "memberlevel": "Gold",
+            "image": "images/gibbs.png",
+            "url": "http://www.blankwebsite.com"
+        },
+        {
+            "name": "Elsa's Italian Restaurant",
+            "contact": "Cindy Smith",
+            "established": "23 December 1998",
+            "address": "1234 N. Main St.",
+            "phone": "555-555-5555",
+            "memberlevel": "Bronze",
+            "image": "images/elsas.png",
+            "url": "http://www.blankwebsite.com"
+        },
+        {
+            "name": "Rikkenjaks Brewing Company",
+            "contact": "Jack Rikken",
+            "established": "23 December 2001",
+            "address": "1234 N. Main St.",
+            "phone": "555-555-5555",
+            "memberlevel": "Silver",
+            "image": "images/rikkenjaks.png",
+            "url": "http://www.blankwebsite.com"
+        },
+        {
+            "name": "Robiceaus' Jewelry",
+            "contact": "Gary Robiceau",
+            "established": "23 December 2004",
+            "address": "1234 N. Main St.",
+            "phone": "555-555-5555",
+            "memberlevel": "Silver",
+            "image": "images/robiceaus.png",
+            "url": "http://www.blankwebsite.com"
+        },
+        {
+            "name": "T & T Pharmacy",
+            "contact": "Gary Torres",
+            "established": "23 December 2007",
+            "address": "1234 N. Main St.",
+            "phone": "555-555-5555",
+            "memberlevel": "Gold",
+            "image": "images/ttpharmlogo.png",
+            "url": "http://www.blankwebsite.com"
+        },
+        {
+            "name": "Wright's Bar-B-Que",
+            "contact": "Jack Wright",
+            "established": "23 December 2010",
+            "address": "1234 N. Main St.",
+            "phone": "555-555-5555",
+            "memberlevel": "Gold",
+            "image": "images/wrights.png",
+            "url": "http://www.blankwebsite.com"
+        },
+        {
+            "name": "Senor Toro's Mexican Restaurant",
+            "contact": "Juan Remirez",
+            "established": "23 December 2013",
+            "address": "1234 N. Main St.",
+            "phone": "555-555-5555",
+            "memberlevel": "Bronze",
+            "image": "images/senortoro.png",
+            "url": "http://www.blankwebsite.com"
+        },
+        {
+            "name": "Powell's Muffler and Brake",
+            "contact": "Justin Powell",
+            "established": "23 December 2016",
+            "address": "1234 N. Main St.",
+            "phone": "555-555-5555",
+            "memberlevel": "Silver",
+            "image": "images/powells.png",
+            "url": "http://www.blankwebsite.com"
+        },
+        {
+            "name": "Donut Palace",
+            "contact": "Kane Ball",
+            "established": "23 December 2022",
+            "address": "1234 N. Main St.",
+            "phone": "555-555-5555",
+            "memberlevel": "Bronze",
+            "image": "images/donut.png",
+            "url": "http://www.blankwebsite.com"
+        }
+    ]
+}

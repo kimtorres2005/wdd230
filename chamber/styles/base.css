@@ -381,6 +381,159 @@ main h1 {
     /* Adjust this value to match the aspect ratio of your images */
 }
 
+/* directory page */
+
+.main .directory-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    padding: 3vw;
+}
+
+#toggle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    max-width: 150px;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #226161;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.633);
+}
+
+#toggle-button:hover {
+    cursor: pointer;
+    color: #16f4d0;
+    background-color: #429EA6;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    grid-gap: 3px;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #cccee747;
+    border: #787887 1px solid;
+    box-shadow: #0000008e 0 0 10px;
+    max-width: 1200px;
+}
+
+.business-card {
+    color: white;
+    background-color: #429EA6;
+    border: #cc998d 3px solid;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    width: 250px;
+}
+
+#business-image {
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    box-shadow: #000000 0 0 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.business-contact,
+.business-address,
+.business-phone,
+.business-established,
+.business-website {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-size: 1em;
+}
+
+.business-website {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+#business-name {
+    font-size: 1.25em;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: underline #cc998d;
+}
+
+.business-card>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-container,
+.address-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+.contact-container p,
+.address-container p {
+    margin: 0;
+}
+
+.list-view .business-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: 70vw;
+    padding: 10px;
+}
+
+.list-view #business-image {
+    max-height: 100px;
+    width: 10vw;
+    margin-right: 10px;
+}
+
+.list-view .business-contact,
+.list-view .business-established {
+    display: none;
+}
+
+.list-view .business-address,
+.list-view .business-phone,
+.list-view .business-website {
+    margin-right: 20px;
+    margin-bottom: 0;
+    font-size: 3vw;
+}
+
+.list-view #business-name {
+    font-size: 3vw;
+    margin-bottom: 5px;
+}
 
 /* Home Page and general CSS */
 
