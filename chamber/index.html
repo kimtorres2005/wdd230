@@ -10,7 +10,8 @@
     <meta name="author" content="Your author name here">
     <meta property="og:title" content="Colmesneil, Texas Chamber of Commerce">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcmsv2-assets.apptegy.net%2Fuploads%2F3904%2Ffile%2F1793462%2F03b27887-8f18-478f-b40f-a83b097a5dc4.jpeg&tbnid=0dw-vs-fcbFQTM&vet=12ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ..i&imgrefurl=https%3A%2F%2Fwww.colmesneilisd.net%2Fpage%2Flake-tejas&docid=J2Jzl9wHXm7XnM&w=1920&h=1080&q=colmesneil%20texas&client=safari&ved=2ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ">
+    <meta property="og:image"
+        content="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcmsv2-assets.apptegy.net%2Fuploads%2F3904%2Ffile%2F1793462%2F03b27887-8f18-478f-b40f-a83b097a5dc4.jpeg&tbnid=0dw-vs-fcbFQTM&vet=12ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ..i&imgrefurl=https%3A%2F%2Fwww.colmesneilisd.net%2Fpage%2Flake-tejas&docid=J2Jzl9wHXm7XnM&w=1920&h=1080&q=colmesneil%20texas&client=safari&ved=2ahUKEwiWgLK008b_AhWXFN4AHeD3AaIQMygJegUIARDNAQ">
     <meta property="og:url" content="https://kimtorres2005.github.io/wdd230/chamber/index.html">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -74,23 +75,28 @@
             </div>
         </div>
         <div class="main">
-            <div class="column2" id="column2">
+            <div class="column2">
                 <div class="placeholder-box-2" id="placeholder2">
                     <h2>Colmesneil</h2>
                     <h2>Weather</h2>
                     <div class="line1"></div>
-                    <div class="temperature">
-                        <p id="temp">82</p>
-                        <p>&deg;F</p>
+                    <div class="forecast">
+                        <div class="forecast-item">
+                            <p id="temp1"></p>
+                            <p>&deg;F</p>
+                            <p id="desc1"></p>
+                        </div>
+                        <div class="forecast-item">
+                            <p id="temp2"></p>
+                            <p>&deg;F</p>
+                            <p id="desc2"></p>
+                        </div>
+                        <div class="forecast-item">
+                            <p id="temp3"></p>
+                            <p>&deg;F</p>
+                            <p id="desc3"></p>
+                        </div>
                     </div>
-                    <p>Mostly Sunny</p>
-                    <div class="line1"></div>
-                    <div class="windS">
-                        <p>Wind Speed:</p>
-                        <p id="wind-speed">8</p>
-                        <p>mph</p>
-                    </div>
-                    <p id="windchill"></p>
                 </div>
                 <div class="placeholder-box-1" id="placeholder1">
                     <div class="event-center">
@@ -209,6 +215,37 @@
     </footer>
     <!-- <script src="scripts/windchill.js"></script> -->
     <script src="scripts/chamber.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function fetchWeatherData() {
+            const apiKey = 'YOUR_API_KEY';
+            const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=Colmesneil,us&appid=${apiKey}&units=imperial`;
+
+            $.ajax({
+                url: apiUrl,
+                method: 'GET',
+                success: function (response) {
+                    const forecastList = response.list.slice(0, 3);
+
+                    forecastList.forEach((forecast, index) => {
+                        const temperature = forecast.main.temp;
+                        const description = forecast.weather[0].description;
+
+                        const temperatureElement = document.querySelector(`#temp${index + 1}`);
+                        const descriptionElement = document.querySelector(`#desc${index + 1}`);
+
+                        temperatureElement.textContent = Math.round(temperature) + '°F';
+                        descriptionElement.textContent = description;
+                    });
+                },
+                error: function (error) {
+                    console.log('Error fetching weather data:', error);
+                }
+            });
+        }
+
+        fetchWeatherData();
+    </script>
 </body>
 
 </html>
