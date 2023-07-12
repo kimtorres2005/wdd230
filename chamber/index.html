@@ -74,52 +74,54 @@
                 </div>
             </div>
         </div>
-        <div class="placeholder-box-2" id="placeholder2">
-            <h2>Colmesneil</h2>
-            <h2>Weather</h2>
-            <div class="line1"></div>
-            <div class="forecast">
-                <div class="forecast-item">
-                    <p class="forecast-date" id="date1"></p>
-                    <img class="forecast-icon" id="icon1" src="" alt="Forecast Icon">
-                    <p class="forecast-temp" id="temp1"></p>
-                    <p class="forecast-desc" id="desc1"></p>
-                </div>
-                <div class="forecast-item">
-                    <p class="forecast-date" id="date2"></p>
-                    <img class="forecast-icon" id="icon2" src="" alt="Forecast Icon">
-                    <p class="forecast-temp" id="temp2"></p>
-                    <p class="forecast-desc" id="desc2"></p>
-                </div>
-                <div class="forecast-item">
-                    <p class="forecast-date" id="date3"></p>
-                    <img class="forecast-icon" id="icon3" src="" alt="Forecast Icon">
-                    <p class="forecast-temp" id="temp3"></p>
-                    <p class="forecast-desc" id="desc3"></p>
-                </div>
-            </div>
-        </div>
-        <div class="placeholder-box-1" id="placeholder1">
-            <div class="event-center">
-                <img src="images/eventCenter.jpg" alt="Picture of event center">
-                <div class="event-text">
-                    <h2>4th of July Celebration!</h2>
-                    <p>Lively Oak Event Center</p>
+        <div class="main">
+            <div class="weather-container">
+                <div id="weather">
+                    <h1>Weather</h1>
+                    <div class="line1"></div>
+                    <div class="temp-icon">
+                        <figure>
+                            <div id="weather-icon"></div>
+                            <figcaption></figcaption>
+                        </figure>
+                        <div class="temperature">
+                            <p><span id="temp"></span> &deg;F</p>
+                        </div>
+                    </div>
+                    <div class="weather-details">
+                        <div class="humidity">
+                            <h3>Humidity</h3>
+                            <p id="humidity-value"></p>
+                        </div>
+                        <div class="forecast">
+                            <h3>3-Day Forecast</h3>
+                            <ul id="forecast-list"></ul>
+                        </div>
+                    </div>
+                    <p id="weather-provider">Weather provided by Open Weather Map</p>
                 </div>
             </div>
-        </div>
-        <div class="placeholder-box-5" id="placeholder5">
-            <div class="news1">
-                <img src="images/damB.jpg" alt="image of damB">
-                <div class="news1-text">
-                    <h2>Dam B To Undergo Major Construction</h2>
-                    <p>Govenor Greg Abbott announced today that the
-                        Army Corp of Engineers will be performing a
-                        major overhaul of Dam B. The construction is
-                        set to begin this summer.</p>
+            <div class="placeholder-box-1" id="placeholder1">
+                <div class="event-center">
+                    <img src="images/eventCenter.jpg" alt="Picture of event center">
+                    <div class="event-text">
+                        <h2>4th of July Celebration!</h2>
+                        <p>Lively Oak Event Center</p>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="placeholder-box-5" id="placeholder5">
+                <div class="news1">
+                    <img src="images/damB.jpg" alt="image of damB">
+                    <div class="news1-text">
+                        <h2>Dam B To Undergo Major Construction</h2>
+                        <p>Govenor Greg Abbott announced today that the
+                            Army Corp of Engineers will be performing a
+                            major overhaul of Dam B. The construction is
+                            set to begin this summer.</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="column3" id="column3">
             <div class="placeholder-box-5" id="placeholder5b">
@@ -164,7 +166,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </main>
 
@@ -217,36 +218,7 @@
     <!-- <script src="scripts/windchill.js"></script> -->
     <script src="scripts/chamber.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        function fetchWeatherData() {
-            const apiKey = '6d25f33bb1267ba71d0fa8d39306cadc';
-            const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=Colmesneil,us&appid=${apiKey}&units=imperial`;
 
-            $.ajax({
-                url: apiUrl,
-                method: 'GET',
-                success: function (response) {
-                    const forecastList = response.list.slice(0, 3);
-
-                    forecastList.forEach((forecast, index) => {
-                        const temperature = forecast.main.temp;
-                        const description = forecast.weather[0].description;
-
-                        const temperatureElement = document.querySelector(`#temp${index + 1}`);
-                        const descriptionElement = document.querySelector(`#desc${index + 1}`);
-
-                        temperatureElement.textContent = Math.round(temperature) + '°F';
-                        descriptionElement.textContent = description;
-                    });
-                },
-                error: function (error) {
-                    console.log('Error fetching weather data:', error);
-                }
-            });
-        }
-
-        fetchWeatherData();
-    </script>
 </body>
 
 </html>
