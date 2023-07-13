@@ -63,8 +63,8 @@ function topBanner() {
         let banner = document.createElement("div");
         banner.classList.add("banner");
         banner.innerText = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
-        let body = document.body;
-        body.insertBefore(banner, body.firstChild);
+        let header = document.querySelector('header');
+        header.insertBefore(banner, header.firstChild);
     }
 }
 

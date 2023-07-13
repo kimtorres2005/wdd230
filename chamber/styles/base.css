@@ -954,6 +954,15 @@ main h1 {
     padding-right: 25px;
 }
 
+.banner {
+    background-color: #cc998d;
+    color: black;
+    padding: 2vw;
+    text-align: center;
+    font-size: 4vw;
+    width: 100%;
+}
+
 /* Footer */
 
 footer {
