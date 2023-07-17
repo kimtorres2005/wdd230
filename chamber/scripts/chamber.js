@@ -59,7 +59,7 @@ setupInfoLinks();
 function topBanner() {
     let curDate = new Date();
     let dayOfWeek = curDate.getDay();
-    if (dayOfWeek === 1 || dayOfWeek === 2) {
+    if (dayOfWeek === 1 || dayOfWeek === 2 || dayOfWeek === 3) {
         let banner = document.createElement("div");
         banner.classList.add("banner");
         banner.innerText = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
@@ -171,6 +171,6 @@ apiFetch();
 
 getCurrentDate();
 displayFooter();
-toggleMenu();
 topBanner();
+toggleMenu();
 // setupInfoLinks();

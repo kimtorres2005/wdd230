@@ -571,7 +571,7 @@ main h1 {
     border: 1px solid #16f4d0;
     box-sizing: border-box;
     background-color: #e6e6e6;
-    height: 200px;
+    height: 300px;
     overflow: hidden;
     margin: 0 auto;
     display: flex;
@@ -841,7 +841,7 @@ main h1 {
     height: 200px;
 }
 
-.placeholder-box-6 {
+/* .placeholder-box-6 {
     order: 5;
     border: 2px solid #16f4d0;
     box-sizing: border-box;
@@ -849,7 +849,7 @@ main h1 {
     box-shadow: 0 1vh 2vw #4b4949;
     background-color: #e6e6e6;
     font-family: "Castoro Titling", serif;
-}
+}*/
 
 #inner-box1,
 #inner-box2,
@@ -857,6 +857,85 @@ main h1 {
     margin: 3vh;
 }
 
+#placeholder-box-6 {
+    order: 5;
+    box-sizing: border-box;
+    height: 600px;
+    background-color: none;
+}
+
+#silver-card-container,
+#gold-card-container {
+    line-height: 1;
+}
+
+.business-contact1 {
+    display: none;
+}
+
+.inner-box {
+    margin: 3vh;
+}
+
+#inner-box-1 {
+    height: 265px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #226161;
+    color: white;
+    border: 10px solid rgb(234, 203, 25);
+    line-height: .75;
+}
+
+.spot-1 {
+    line-height: .5;
+}
+
+#business-image1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+}
+
+#business-name1 {
+    font-size: 20px;
+    text-decoration: underline 5px rgb(234, 203, 25);
+}
+
+#inner-box-1 p {
+    font-size: 18px;
+}
+
+#inner-box-2 {
+    height: 265px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: silver 10px solid;
+    background-color: #226161;
+    color: white;
+}
+
+.inner-box-2 {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    line-height: 1;
+}
+
+#inner-box2 .spot-2 h2 {
+    font-size: 20px;
+    text-decoration: underline silver 5px;
+}
+
+#inner-box-2 p {
+    font-family: "Cinzel Decorative family";
+    font-size: 18px;
+}
+
+/*
 .inner-box-1 {
     border: 2px solid #16f4d0;
     box-sizing: border-box;
@@ -925,7 +1004,7 @@ main h1 {
     font-family: "Cinzel Decorative family";
     font-size: 2.5vh;
     margin-top: -5px;
-}
+} */
 
 .inner-box-3 {
     border: 2px solid #16f4d0;
