@@ -95,7 +95,6 @@
         font-weight: 900;
     }
 
-
     /* Date Header Row */
     .row-2 {
         display: flex;
@@ -169,7 +168,6 @@
         font-size: 25px;
     }
 
-
     .discover-boxes .discover-img img {
         width: 65%;
     }
@@ -177,7 +175,6 @@
     .discover-boxes .discover-img img:hover {
         filter: saturate(200%);
     }
-
 
     .column1 {
         width: 90vw;
@@ -197,7 +194,6 @@
     .placeholder-box-3 p {
         font-size: 3vh;
     }
-
 
     .main {
         display: flex;
@@ -309,7 +305,6 @@
         font-size: 1.2vw;
         margin-right: 20px;
     }
-
 
     /* Footer */
 
