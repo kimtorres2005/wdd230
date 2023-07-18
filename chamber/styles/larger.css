@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 950px) {
 
     .banner {
         padding: .5vw;
@@ -176,12 +176,11 @@
         filter: saturate(200%);
     }
 
-    .column1 {
-        width: 90vw;
-    }
 
-    .placeholder-box-4 {
-        height: 45vh;
+    /* Home page main */
+
+    .placeholder-box-1 {
+        height: 500px;
     }
 
     .placeholder-box-3 button {
@@ -195,54 +194,50 @@
         font-size: 3vh;
     }
 
-    .main {
+    .event-news {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+    }
+
+    .spotlights {
+        display: flex;
+        flex-direction: row;
         align-items: center;
+        justify-content: center;
     }
 
-    .column2 {
-        width: 45vw;
+    .placeholder-box-6 {
+        width: 80%;
     }
 
-    .placeholder-box-2 {
-        height: 45vh;
+    .inner-box-1,
+    .inner-box-2 {
+        width: 400px;
     }
 
-    .placeholder-box-2 h1 {
-        font-size: 5vh;
+    #weather {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 800px;
+        gap: 70px;
     }
 
-    .placeholder-box-2 p {
-        font-size: 3vh;
+    .weather-container {
+        width: 800px;
     }
 
-    .placeholder-box-1 {
-        height: 45vh;
+    .line1 {
+        display: none;
     }
 
-    .placeholder-box-1 h2 {
-        font-size: 4vh;
+    .humidity {
+        margin-right: 40px;
     }
 
-    .placeholder-box-1 p {
-        font-size: 3vh;
-    }
-
-    .column3 {
-        width: 45vw;
-    }
-
-    .spot-2 img {
-        max-width: 13vh;
-        padding-right: 15px;
-    }
-
-    .inner-box-2 p {
-        font-family: "Cinzel Decorative family";
-        font-size: 2.5vh;
-        margin-top: 5px;
+    .weather-details {
+        margin-right: 40px;
     }
 
     .levelsDisplay {

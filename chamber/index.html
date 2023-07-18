@@ -51,7 +51,6 @@
                                 <li><a href="discover.html">Discover</a></li>
                                 <li><a href="directory.html">Directory</a></li>
                                 <li><a href="join.html">Join</a></li>
-                                <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -62,7 +61,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="indexMain">
         <div class="column1" id="column1">
             <div class="placeholder-box-4" id="placeholder4">
                 <div class="hero">
@@ -74,33 +73,33 @@
                 </div>
             </div>
         </div>
-        <div class="main">
-            <div class="weather-container">
-                <div id="weather">
-                    <h1>Weather</h1>
-                    <div class="line1"></div>
-                    <div class="temp-icon">
-                        <figure>
-                            <div id="weather-icon"></div>
-                            <figcaption></figcaption>
-                        </figure>
-                        <div class="temperature">
-                            <p><span id="temp"></span> &deg;F</p>
-                        </div>
+        <div class="weather-container">
+            <h1>Weather</h1>
+            <div id="weather">
+                <div class="line1"></div>
+                <div class="temp-icon">
+                    <figure>
+                        <div id="weather-icon"></div>
+                        <figcaption></figcaption>
+                    </figure>
+                    <div class="temperature">
+                        <p><span id="temp"></span> &deg;F</p>
                     </div>
-                    <div class="weather-details">
-                        <div class="humidity">
-                            <h3>Humidity</h3>
-                            <p id="humidity-value"></p>
-                        </div>
-                        <div class="forecast">
-                            <h3>3-Day Forecast</h3>
-                            <ul id="forecast-list"></ul>
-                        </div>
+                </div>
+                <div class="humidity">
+                    <h3>Humidity</h3>
+                    <p id="humidity-value"></p>
+                </div>
+                <div class="weather-details">
+                    <div class="forecast">
+                        <h3>3-Day Forecast</h3>
+                        <ul id="forecast-list"></ul>
                     </div>
-                    <p id="weather-provider">Weather provided by Open Weather Map</p>
                 </div>
             </div>
+            <p id="weather-provider">Weather provided by Open Weather Map</p>
+        </div>
+        <div class="event-news">
             <div class="placeholder-box-1" id="placeholder1">
                 <div class="event-center">
                     <img src="images/eventCenter.jpg" alt="Picture of event center">
@@ -124,39 +123,17 @@
             </div>
         </div>
         <div class="column3" id="column3">
-            <div class="placeholder-box-5" id="placeholder5b">
-                <div class="news2">
-                    <img src="images/damB.jpg" alt="image of damB">
-                    <div class="news2-text">
-                        <h2>Dam B To Undergo Major Construction</h2>
-                        <p>Govenor Greg Abbott announced today that the
-                            Army Corp of Engineers will be performing a
-                            major overhaul of Dam B. The construction is
-                            set to begin this summer.</p>
-                    </div>
-                </div>
-            </div>
             <div class="placeholder-box-6" id="placeholder6">
-                <div class="inner-box-1" id="inner-box1">
-                    <div class="spot-1">
-                        <div id="gold-card-container"></div>
-                        <!-- <h2>New Store Opening</h2>
-                        <h3>T & T Pharmacy</h3>
-                        <p>Father and Son</p>
-                        <p>Gary and Blake Torres</p>
-                        <p>"We are here to serve Colmesneil."</p>
-                        <p>Opens July 2nd!</p> -->
-                    </div>
-                </div>
-                <div class="inner-box-2" id="inner-box2">
-                    <div class="spot-2">
-                        <div id="silver-card-container"></div>
-                        <!-- <div id="spot-2">
-                            <img src="images/wrights.png" alt="Wright's Bar-B-Que Logo">
-                            <h2>Wright's Bar-B-Que</h2>
+                <div class="spotlights">
+                    <div class="inner-box-1" id="inner-box1">
+                        <div class="spot-1">
+                            <div id="gold-card-container"></div>
                         </div>
-                        <p>Weekly Specials!</p>
-                        <p>Open Monday-Saturday: 11-8</p> -->
+                    </div>
+                    <div class="inner-box-2" id="inner-box2">
+                        <div class="spot-2">
+                            <div id="silver-card-container"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="inner-box-3" id="inner-box3">
