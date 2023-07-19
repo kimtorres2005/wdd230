@@ -2,7 +2,7 @@
 
     .banner {
         padding: .5vw;
-        font-size: 24px;
+        font-size: 18px;
         width: 100%;
     }
 
@@ -33,7 +33,7 @@
     }
 
     .heading {
-        font-size: 20px;
+        font-size: 18px;
         max-height: fit-content;
         color: black;
     }
@@ -109,7 +109,7 @@
     /* Main */
 
     main h1 {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .container {
