@@ -21,7 +21,7 @@ body {
     color: black;
     padding: 2vw;
     text-align: center;
-    font-size: 4vw;
+    font-size: 24px;
     width: 100%;
 }
 
@@ -58,7 +58,7 @@ header {
 }
 
 .heading {
-    font-size: 1.5vh;
+    font-size: 20px;
     text-align: center;
     color: black;
 }
@@ -88,7 +88,7 @@ header {
 /* This is the navigation menu */
 
 .nav-ul li a.active {
-    font-size: 3vh;
+    font-size: 24px;
     text-decoration: underline;
 }
 
@@ -134,7 +134,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #ecebe4;
-    font-size: 2.5vw;
+    font-size: 18px;
     height: 3vw;
     padding-top: 2vw;
 }
@@ -160,7 +160,7 @@ main {
 }
 
 main h1 {
-    font-size: 5vw;
+    font-size: 24px;
     color: #153b50;
     text-align: center;
     text-decoration: underline;
@@ -181,7 +181,7 @@ form legend {
     color: #153b50;
     margin: 0 auto;
     padding: 0 .5rem;
-    font-size: 1.25rem;
+    font-size: 30px;
     margin-bottom: 1.25rem;
 }
 
@@ -191,7 +191,7 @@ form label.top {
     align-items: center;
     padding-bottom: 2rem;
     color: black;
-    font-size: 15px;
+    font-size: 24px;
 }
 
 form label.top input,
@@ -204,7 +204,7 @@ form label.top select {
     border: 1px solid #429ea4;
     color: black;
     border-radius: 4px;
-    font-size: 1.25rem;
+    font-size: 18px;
     max-width: 20rem;
     background-color: white;
     box-shadow: 1px 1px 1px #429ea4;
@@ -288,7 +288,7 @@ form label.top select {
     max-width: 400px;
     margin-top: 1.5vh;
     margin-bottom: 1.5vh;
-    font-size: 1rem;
+    font-size: 14px;
     padding: 10px;
     box-shadow: 1px 1px 1px #474646;
     border-radius: 10px;
@@ -298,7 +298,7 @@ form label.top select {
 .submitBtn {
     color: black;
     padding: .5rem;
-    font-size: 1.25rem;
+    font-size: 18px;
     margin-bottom: 60px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.633);
@@ -337,7 +337,7 @@ main h1 {
 .discover-para {
     background-color: #ecebe4;
     padding: 30px;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 4px 4px 4px gray;
@@ -350,7 +350,7 @@ main h1 {
     grid-template-rows: repeat(6, 1fr);
     align-items: center;
     justify-content: center;
-    font-size: 10px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -392,7 +392,7 @@ main h1 {
     color: black;
     background-color: #cc998d;
     padding: .5rem;
-    font-size: 1rem;
+    font-size: 18px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.633);
 }
@@ -448,18 +448,18 @@ main h1 {
     color: black;
     margin-bottom: 20px;
     margin-top: -20px;
-    font-size: 1em;
+    font-size: 20px;
 }
 
 .business-website {
     color: black;
     margin-bottom: 20px;
     margin-top: 5px;
-    font-size: 1em;
+    font-size: 20px;
 }
 
 #business-name {
-    font-size: 1.25em;
+    font-size: 24px;
     margin-top: 5px;
     margin-bottom: 15px;
     padding: 3px;
@@ -517,11 +517,11 @@ main h1 {
 .list-view .business-website {
     margin-right: 20px;
     margin-bottom: 0;
-    font-size: 3vw;
+    font-size: 18px;
 }
 
 .list-view #business-name {
-    font-size: 3vw;
+    font-size: 18px;
     margin-bottom: 5px;
 }
 
@@ -701,7 +701,7 @@ main h1 {
 }
 
 #weather h1 {
-    font-size: 45px;
+    font-size: 24px;
     margin-bottom: 15px;
     color: #153b50;
     text-shadow: 4px 1px 8px rgba(0, 0, 0, 0.717);
@@ -848,7 +848,7 @@ main h1 {
 }
 
 #inner-box-1 p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #inner-box2 {
@@ -875,7 +875,7 @@ main h1 {
 
 #inner-box-2 p {
     font-family: "Cinzel Decorative family";
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .inner-box-3 {
@@ -895,12 +895,12 @@ main h1 {
 }
 
 .inner-box-3 h2 {
-    font-size: 4vh;
+    font-size: 20px;
     text-decoration: underline;
 }
 
 .inner-box-3 p {
-    font-size: 2vh;
+    font-size: 16px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -910,7 +910,7 @@ main h1 {
     color: black;
     padding: 2vw;
     text-align: center;
-    font-size: 4vw;
+    font-size: 24px;
     width: 97%;
 }
 
@@ -946,11 +946,11 @@ footer .logo {
 }
 
 .title {
-    font-size: 2.5vw;
+    font-size: 18px;
 }
 
 .address {
-    font-size: 2vh;
+    font-size: 16px;
     line-height: .5;
 }
 
@@ -969,6 +969,6 @@ footer .logo {
     padding: 1.5vw;
     justify-content: center;
     text-align: center;
-    font-size: 2vw;
+    font-size: 14px;
     max-width: 100%;
 }
