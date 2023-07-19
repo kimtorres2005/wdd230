@@ -186,7 +186,7 @@
     .placeholder-box-3 button {
         width: 20vh;
         height: 8vh;
-        font-size: 28px;
+        font-size: 22px;
         font-weight: bold;
     }
 
@@ -282,7 +282,7 @@
     }
 
     .list-view #business-name {
-        font-size: 28px;
+        font-size: 20px;
         margin-bottom: 5px;
     }
 
