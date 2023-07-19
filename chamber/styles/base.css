@@ -575,6 +575,14 @@ main h1 {
     font-weight: bold;
 }
 
+.placeholder-box-3 button a {
+    color: black;
+}
+
+.placeholder-box-3 button:hover {
+    background-color: #cc998d;
+}
+
 /* Paragraph styles */
 .placeholder-box-3 p {
     position: absolute;
@@ -950,7 +958,7 @@ footer .logo {
 }
 
 .address {
-    font-size: 16px;
+    font-size: 18px;
     line-height: .5;
 }
 
@@ -969,6 +977,6 @@ footer .logo {
     padding: 1.5vw;
     justify-content: center;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     max-width: 100%;
 }
