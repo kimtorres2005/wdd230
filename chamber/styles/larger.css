@@ -2,7 +2,7 @@
 
     .banner {
         padding: .5vw;
-        font-size: 2vw;
+        font-size: 24px;
         width: 100%;
     }
 
@@ -33,7 +33,7 @@
     }
 
     .heading {
-        font-size: 1.15vw;
+        font-size: 20px;
         max-height: fit-content;
         color: black;
     }
@@ -90,7 +90,7 @@
         justify-content: space-evenly;
         color: black;
         padding: 2vh;
-        font-size: 2vh;
+        font-size: 20px;
         margin-left: -6.5vw;
         font-weight: 900;
     }
@@ -102,14 +102,14 @@
         justify-content: center;
         background-color: #ecebe4;
         color: #153b50;
-        font-size: 2vw;
+        font-size: 20px;
         padding-bottom: 1vw;
     }
 
     /* Main */
 
     main h1 {
-        font-size: 55px;
+        font-size: 24px;
     }
 
     .container {
@@ -143,7 +143,7 @@
         grid-template-rows: repeat(6, 1fr);
         align-items: center;
         justify-content: center;
-        font-size: 10px;
+        font-size: 15px;
         text-align: center;
     }
 
@@ -186,12 +186,12 @@
     .placeholder-box-3 button {
         width: 20vh;
         height: 8vh;
-        font-size: 3.5vh;
+        font-size: 28px;
         font-weight: bold;
     }
 
     .placeholder-box-3 p {
-        font-size: 3vh;
+        font-size: 24px;
     }
 
     .event-news {
@@ -282,7 +282,7 @@
     }
 
     .list-view #business-name {
-        font-size: 1.5vw;
+        font-size: 28px;
         margin-bottom: 5px;
     }
 
@@ -291,13 +291,13 @@
     .list-view .business-phone {
         display: block;
         margin-bottom: 5px;
-        font-size: 1.2vw;
+        font-size: 18px;
         margin-right: 20px;
     }
 
     .list-view .business-website,
     .list-view .business-established {
-        font-size: 1.2vw;
+        font-size: 18px;
         margin-right: 20px;
     }
 
@@ -326,12 +326,12 @@
     }
 
     .title h3 {
-        font-size: 1.75vw;
+        font-size: 20px;
         gap: 0;
     }
 
     .address {
-        font-size: 1.5vw;
+        font-size: 18px;
     }
 
     .map-link {
@@ -367,7 +367,7 @@
     .contact {
         display: flex;
         flex-direction: column;
-        font-size: 1.75vw;
+        font-size: 20px;
         line-height: .5;
         margin-right: 5vw;
         margin-top: .5vw;
@@ -384,6 +384,6 @@
         color: #ecebe4;
         padding: .5vw;
         margin: .5vw;
-        font-size: 2vw;
+        font-size: 20px;
     }
 }
